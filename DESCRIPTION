@@ -25,3 +25,5 @@ Imports:
     tibble
 Config/testthat/edition: 3
 VignetteBuilder: knitr
+URL: https://github.com/mune-satake/testpackageTest
+BugReports: https://github.com/mune-satake/testpackageTest/issues
