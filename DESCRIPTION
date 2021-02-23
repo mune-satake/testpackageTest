@@ -1,0 +1,27 @@
+Package: testpackageTest
+Title: My Demo Package
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Mune",
+           family = "Satake",
+           role = c("aut", "cre"),
+           email = "ys5340a@student.american.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This is my basic package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Language: en-US
+Imports: 
+    ggplot2,
+    magrittr,
+    tibble
+Config/testthat/edition: 3
+VignetteBuilder: knitr
